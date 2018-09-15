@@ -50,7 +50,9 @@ var orm = {
       cb(result);
     });
   },
-  insertOne: function(table, cols, vals, cb) {
+
+  //  Create a new object in the table
+  create: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
     queryString += " (";
@@ -87,7 +89,25 @@ var orm = {
 
       cb(result);
     });
+  },
+
+  // Delete one row in a table
+  deleteOne: function(table, condition, cb) {
+    var queryString = "DELETE FROM " + table;
+    queryString += " WHERE ";
+    queryString += condition;
+
+    console.log(queryString);
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
   }
+
+
 };
 
 // Export the orm object for the model (burger.js).

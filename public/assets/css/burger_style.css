@@ -1,0 +1,85 @@
+body {
+    background: url("../img/Moo and Brew 1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hdr {
+    background-color: rgb(31, 36, 73);
+    text-align: center;
+    font-family: "lobster two";
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.lobster2 {
+    font-family: "lobster two";
+    color: #1F2449;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.add-burger {
+    text-align: center;
+    padding: 40px;
+}
+
+#bu {
+    border: 2px solid #43486D;
+    padding-left: 5px;
+    color: #1F2449;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    color: #43486D;
+    border: 2px solid #43486D;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+button:hover {
+    background-color: #43486D;
+    color: white;
+}
+
+.to-eat {
+    width: 40%;
+    text-align: left;
+    float: left;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.center-blank {
+    width: 20%;
+    float: left;
+
+}
+
+.devoured {
+    width: 30%;
+    text-align: left;
+    float: left;
+
+}
+
