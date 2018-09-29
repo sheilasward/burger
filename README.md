@@ -6,7 +6,7 @@ This assignment is a burger logger using MySQL, Node, Express, Handlebars and a 
 
 ### Deployment Note
 
-This assignment will be deployed to both GitHub and Heroku.
+This assignment is on github, and is deployed on Heroku at:  https://shielded-river-30768.herokuapp.com/
 
 ### About the application
 
